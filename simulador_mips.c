@@ -169,6 +169,7 @@ int main(int argc, char *argv[]) {
     }
 
     salvar_registradores();
+    printf("\nInstrução executada:\n");
 
     printf("\nEstado dos registradores:\n");
     for (int i = 0; i < NUM_REGISTROS; i++) {
